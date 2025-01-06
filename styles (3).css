@@ -1,0 +1,123 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+   {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/622/564/original/ai-concept-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #0d1117;
+    color: white;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar Section */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background: rgba(13, 17, 23, 0.9);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #58a6ff;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-bar {
+    background: #161b22;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #30363d;
+    color: #c9d1d9;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.signup-btn {
+    background: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin: 5% auto;
+    padding: 0 5%;
+    max-width: 800px;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero h1 span {
+    color: #58a6ff;
+}
+
+.hero p {
+    color: #c9d1d9;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.watch-video-btn {
+    background: white;
+    color: black;
+    padding: 0.8rem 1.5rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.watch-video-btn:hover {
+    transform: scale(1.05);
+}
