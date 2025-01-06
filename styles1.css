@@ -6,7 +6,7 @@
 .logo-area {
   background-color: #f4f4f4;
   text-align: center;
-  padding: 20px; /
+  padding: 20px;
 }
 
 .logo {
@@ -56,7 +56,7 @@ body {
 }
 .navbar h3{
     color: #00bcd4;
-  text decoration: none;
+    text-decoration: none;
 }
 
 .btn {
